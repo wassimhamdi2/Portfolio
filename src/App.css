@@ -1,0 +1,16 @@
+/* Bigger shadow for skill cards */
+.skill-card {
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease;
+}
+
+/* Hover effect: stronger shadow + lift */
+.skill-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.25);
+}
+
+/* Bigger skill category text */
+.skill-card .card-title {
+  font-size: 1.2rem; /* slightly larger */
+}
